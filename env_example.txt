@@ -1,0 +1,12 @@
+export PROJECT_NAME="My Base Camp"
+export DJANGO_SETTINGS_MODULE="config.settings.production"
+export SECRET_KEY=
+export DB_NAME=
+export DB_HOST=
+export DB_PORT=
+export DB_USER=
+export DB_PASSWORD=
+export REDIS_HOST=redis
+export REDIS_PORT=6379
+export REDIS_USER=
+export REDIS_PASSWORD=
