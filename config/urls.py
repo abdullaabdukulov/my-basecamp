@@ -23,6 +23,10 @@ from config.settings import django_settings_module
 
 urlpatterns = [path("default-admin-panel/", admin.site.urls)]
 
+urlpatterns += [
+    path("users/", include(("users.urls", "users"), "users")),
+]
+
 if django_settings_module == "development":
     urlpatterns += [
         path("__debug__/", include("debug_toolbar.urls")),
