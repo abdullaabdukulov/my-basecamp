@@ -5,63 +5,68 @@
     height: 100%;
     position: relative;
     background: white;
+    display: block;
 }
 
 .button {
-    width: 170px;
-    height: 85px;
+    width: 120px;
+    height: 30px;
     padding: 16px;
     position: absolute;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
-    border: 1px #02B3FF solid;
+    border: 1px #007bff solid;
     justify-content: center;
     align-items: center;
     display: inline-flex;
 }
 
 .login {
-    left: 775px;
-    top: 756px;
-    background: #02B3FF;
+    left: 999px;
+    top: 700px;
+    background: #007bff;
+    color: #ffffff;
 }
 
 .signup {
-    left: 518px;
-    top: 756px;
-    background: #02B3FF;
+    left: 736px;
+    top: 700px;
+    background: #007bff;
+    color: #ffffff;
 }
 
 .logo-container {
-    width: 612px;
-    height: 65px;
-    left: 414px;
-    top: 558px;
-    position: absolute;
     text-align: center;
-    color: rgba(0, 0, 0, 0.76);
-    font-size: 70px;
+    font-family: Inter, serif;
+    font-size: 85px;
+    font-style: normal;
     font-weight: 900;
-    font-family: Inter;
+    line-height: normal;
+    width: 700px;
+    height: 85px;
+    left: 610px;
+    top: 490px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.76);
     word-wrap: break-word;
 }
 
 .logo-img {
-    width: 531.42px;
-    height: 404.65px;
-    left: 459.55px;
-    top: 153px;
+    width: 450.42px;
+    height: 420px;
+    left: 719px;
+    top: 150px;
     position: absolute;
 }
 
 .tagline {
-    left: 469px;
-    top: 642px;
+    left: 775.999px;
+    top: 600px;
     position: absolute;
     text-align: center;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Inter;
     font-weight: 500;
     word-wrap: break-word;
